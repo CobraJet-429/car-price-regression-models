@@ -28,7 +28,7 @@ car-price-regression-models/
    ```bash
    git clone https://github.com/CobraJet-429/car-price-regression-models.git 
    cd car-price-regression-models
-                                                                          
+
 2. **Download the dataset manually** from [this Kaggle link](https://www.kaggle.com/datasets/CooperUnion/cardataset) and place the CSV file in the `data/` folder.
 
 3. **(Optional)**: Create and activate a virtual environment
@@ -36,11 +36,11 @@ car-price-regression-models/
 4. **Install required packages**: 
    ```bash 
    pip install -r requirements.txt
-                                                                            
+                                              
 5. **Open the notebook**: 
    ```bash 
    jupyter notebook notebooks/car-price-prediction-using-regression-models.ipynb
-                 
+
 ## Requirements
 
 To run this project, you'll need the following Python packages:
@@ -56,7 +56,7 @@ To run this project, you'll need the following Python packages:
 
 You can install them all at once using:
 
-```bash
+```bash```
 pip install -r requirements.txt
 
 ## Sample Results
