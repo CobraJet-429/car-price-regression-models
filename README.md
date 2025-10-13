@@ -1,16 +1,17 @@
-# Car Price Prediction with Traditional Regression Models
+## Car Price Prediction with Traditional Regression Models
 
 This project explores different traditional regression models to predict the prices of new/used cars based on various features. It includes exploratory data analysis (EDA), data preprocessing, and model training using Scikit-Learn. The goal is to compare model performance and understand which approaches work best for this type of dataset.
 
-## Dataset
+### Dataset
 
-The dataset used in this project contains listings of used cars, with 11,000+ entries and 15 features including brand, model, year, mileage, and more. The target variable is the car price.
+The dataset used in this project contains listings of used cars, with 11,000+ entries and 15 features including brand, model, year, vehicle style, and more. The target variable is the car price.
 
-- **Source**: [Kaggle Dataset Link](https://www.kaggle.com/datasets/CooperUnion/cardataset)
+- **Source**: *[Kaggle Dataset Link](https://www.kaggle.com/datasets/CooperUnion/cardataset)*
 - **License**: *Unknown*  
-  The dataset is not included in this repository due to licensing restrictions. To use it, please download it directly from the Kaggle link above and place it in a `data/` folder.
 
-## Project Structure
+The dataset is not included in this repository due to licensing restrictions. To use it, please download it directly from the Kaggle link above and place it in a `data/` folder.
+
+### Project Structure
 
 car-price-regression-models/  
 ├── data/  # Placeholder folder for dataset (not included)  
@@ -22,12 +23,13 @@ car-price-regression-models/
 ├── requirements.txt  # Python dependencies  
 └── .gitignore  # Files/folders excluded from version control  
 
-## How to Run
+### How to Run
 
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/CobraJet-429/car-price-regression-models.git 
    cd car-price-regression-models
+   ```
                                                                           
 2. **Download the dataset manually** from [this Kaggle link](https://www.kaggle.com/datasets/CooperUnion/cardataset) and place the CSV file in the `data/` folder.
 
@@ -36,12 +38,14 @@ car-price-regression-models/
 4. **Install required packages**: 
    ```bash 
    pip install -r requirements.txt
+   ```
                                                                             
 5. **Open the notebook**: 
    ```bash 
    jupyter notebook notebooks/car-price-prediction-using-regression-models.ipynb
+   ```
                  
-## Requirements
+### Requirements
 
 To run this project, you'll need the following Python packages:
 
@@ -58,8 +62,9 @@ You can install them all at once using:
 
 ```bash
 pip install -r requirements.txt
+```
 
-## Sample Results
+### Sample Results
 
 Performance comparison across models based on MSE and R-squared scores:
 
