@@ -12,7 +12,7 @@ The dataset used in this project contains listings of used cars, with 11,000+ en
 The dataset is not included in this repository due to licensing restrictions. To use it, please download it directly from the Kaggle link above and place it in a `data/` folder.
 
 ## Project Structure
-
+```bash
 car-price-regression-models/  
 ├── data/  # Placeholder folder for dataset (not included)  
 │ └── README.txt  # Instructions to manually download the dataset  
@@ -22,15 +22,14 @@ car-price-regression-models/
 ├── README.md  # Project documentation  
 ├── requirements.txt  # Python dependencies  
 └── .gitignore  # Files/folders excluded from version control  
-
+```
 ## How to Run
 
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/CobraJet-429/car-price-regression-models.git 
    cd car-price-regression-models
-   ```
-                                                                          
+   ```                                                                        
 2. **Download the dataset manually** from [this Kaggle link](https://www.kaggle.com/datasets/CooperUnion/cardataset) and place the CSV file in the `data/` folder.
 
 3. **(Optional)**: Create and activate a virtual environment
